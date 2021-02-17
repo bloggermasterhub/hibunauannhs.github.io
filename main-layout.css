@@ -1,0 +1,11 @@
+/*---------------------------------------
+2. Main Layout
+----------------------------------------*/
+body{background:#FFFFFF url(https://4.bp.blogspot.com/-2sf_DJv6enY/V-eDxt2aocI/AAAAAAAAA-A/Xz2ubvTIoxI0xWrjGCF9mpiF0hnbR_SqgCLcB/s1600/confectionary.png) repeat scroll top left;font:normal normal 14px &#39;Open Sans&#39;, sans-serif;color:#222222;position:relative;margin:0;padding:0;-webkit-font-smoothing:antialiased!important;}
+#outer-wrapper{margin:0 auto;overflow:hidden;box-shadow: 0 0 40px rgba(0,0,0,0.05);}
+#outer-wrapper{background:#FFFFFF;}
+/* To make template wide, chnage max-width:1200px; to max-width:none; or vice versa below */
+#outer-wrapper{max-width:none;}
+body,.section,.widget{position:Static;-webkit-font-smoothing:antialiased;margin:0;}
+.inner{max-width:1200px;margin:0 auto;padding:0px 25px;}
+.inner-fix{padding-top:1px;overflow:hidden;min-height:1px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-right:-25px;margin-left:-25px;}
