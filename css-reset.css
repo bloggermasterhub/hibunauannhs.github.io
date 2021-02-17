@@ -1,0 +1,65 @@
+/*---------------------------------------
+1. CSS Reset
+----------------------------------------*/
+*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+a{transition: all .3s ease-in-out;-moz-transition: all .3s ease-in-out;-webkit-transition: all .3s ease-in-out;}
+.section,.widget,body,figure{margin:0;padding:0}
+.widget ul{margin:0;padding:0;line-height:normal}
+.widget li,.BlogArchive #ArchiveList ul.flat li{padding:0;margin:0;text-indent:0}
+a{text-decoration:none;color:#4d90fe}
+a:hover{color:#4d90fe;}
+img{max-width:100%}
+.post-body img{height:auto!important;}
+.blog-feeds,.post-feeds,.popup-stuff,.ss{display:none!important}
+.PopularPosts ul,.tl-recentComments ul,.tl-randomSimple ul,.tl-recentSimple ul,.Label ul{padding:0;margin:0;list-style:none}
+ins{text-decoration:underline}
+del{text-decoration:line-through}
+blockquote{font-style:italic;color:#888}
+dl,ul{list-style-position:outside;}
+h1,h2,h3,h4,h5,h6{font:normal normal 15px &#39;Roboto&#39;, sans-serif;margin:20px 0;line-height:normal;font-weight: 600;}
+h6{font-size:13px}h5{font-size:15px}h4{font-size:18px}h3{font-size:20px}h2{font-size:25px}h1{font-size:30px}
+caption,th{text-align:center}
+img{border:none;position:relative}
+a img{border-width:0}
+a,a:visited{text-decoration:none;}
+q:after,q:before{content:&#39;&#39;}
+abbr,acronym{border:0}
+.clear{clear:both}
+.section,.widget,.widget ul{margin:0;padding:0}
+::-moz-selection{background-color:#4d90fe;color:#FFF}
+::selection{background-color:#4d90fe;color:#FFF}
+.blog-feeds,.post-feeds,.quickedit,.status-msg-border{display:none}
+.status-msg-body{position:relative;padding:0}
+.status-msg-wrap {width: 100%;font-size: 14px;margin: 0;line-height: 35px;position: relative;border: 1px solid #e6e6e6;margin-bottom: 25px;}
+.status-msg{border:1px solid #e6e6e6;padding:5px 20px;text-align:center;margin:0 0 25px 0}
+.widget-item-control,.FollowByEmail .widget-item-control{height:0;margin;0}
+.col1{width:100%;}
+.col2{width:50%;}
+.col3{width:33.3333333333%;}
+.col4{width:25%;}
+[data-genova]{position:relative;}
+.cboxPhoto{opacity:1;}
+.widget li,.widget ul{margin:0;padding:0;}
+i{font-style:normal;}
+a{color:#4d90fe;text-decoration:none;}
+  
+  
+.accordion {background-color:#eee;color:#444;cursor:pointer;padding:18px;width:100%;border:none;text-align:left;outline:none;font-size:15px;transition:0.4s;}
+.accordion.active, .accordion:hover {background-color:#ccc;}
+.accordion:after {content:&#39;\002B&#39;;color:#777;font-weight:bold;float:right;margin-left:5px;}
+.accordion.active:after {content:&quot;\2212&quot;;}   
+.panel {padding:0 18px;background-color:white;max-height:0;overflow:hidden;transition:max-height 0.2s ease-out;}
+  
+details &gt; summary {font-size:20px;padding:4px;width:auto;background-color:#eeeeee;border:none;box-shadow:1px 1px 2px #bbbbbb;cursor:pointer;}
+details &gt; p {background-color:#b2ebff;padding:4px;margin:0;box-shadow:1px 1px 2px #bbbbbb;}
+  
+
+ul.LinkedList {display:block;}
+.HandCursorStyle {cursor:pointer;cursor:hand;}
+  
+ 
+.myResponsiveAd img {
+  display:block;
+  height:auto;
+  max-width:100%;
+  }
