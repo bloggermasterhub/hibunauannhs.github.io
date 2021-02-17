@@ -1,0 +1,105 @@
+/* Main Navigtion */
+.navicon{float:right;width:5%}
+div#Dropdown nav&gt;ul{width:95%;float:left}
+.main-navigation{background:#222222;height:56px;z-index:99;width:100%;position:relative;box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);right: 0;left: 0;}
+.static-trigger{line-height:32px;height:32px;width:32px;display:none;text-align:center;cursor:pointer}
+.dropdown-trigger{display:none;line-height:50px;color:#FFF;font-size:16px;cursor:pointer;padding:0 25px}
+.main-navigation.stickit{height:50px;position:fixed;width:100%;animation:stickit 500ms;top:0;box-shadow:0 10px 7px rgba(0,0,0,0.1)}
+.headerleft img{height:100px;width:auto;max-width:400px}
+100%{top:0}
+.main-navigation.stickit .headerleft img{height:50px;-webkit-transition:all 300ms ease-in-out;-moz-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out}
+.headerleft{float:left;width:400px}
+li.nav-simple{float:right;height:50px;background:#4d90fe}
+li.nav-simple small{display:block;line-height:30px}
+small.frec:before{content:&#39;\f09e&#39;;font-family:fontAwesome;margin-right:5px}
+.nav-simple span.date{color:#ccc;font:normal normal 12px &#39;Open Sans&#39;, sans-serif}
+.nav-simple-strip{position:relative;width:33.333333333333%;float:left;padding:8px}
+.nav-simple-strip h3{overflow:hidden;margin:0!important}
+.nav-simple-strip h3 a{margin-left:20px}
+.nav-simple-strip h3:before{margin-right:5px;position:absolute;border-radius:50%;content:&quot;&quot;;display:inline-block;background-color:#ccc;left:0;z-index:1;top:5px;width:10px;height:10px;transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-webkit-transition:all .3s ease-in-out}
+.nav-simple-strip h3:hover:before{background-color:#4d90fe}
+nav #rbutton{float:right;display:block;width:72px;background:#0583f2;color:#fff;font:400 20px fontawesome,sans-serif;text-align:center;line-height:72px}
+nav{max-width:1200px;margin:0 auto}
+nav ul{list-style:none;z-index:10;margin:0;padding:0}
+nav&gt;ul&gt;li{display:inline-block;-webkit-transition:all 300ms ease-in-out;-moz-transition:all 300ms ease-in-out;-ms-transition:all 300ms ease-in-out;-o-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out;position:relative}
+li.homelink a{background:#4d90fe;padding:0 15px}
+li.homelink i.fa.fa-home{font-size:30px;vertical-align:middle}
+nav&gt;ul&gt;li&gt;a{font:normal normal 15px &#39;Roboto&#39;, sans-serif;color:#FFFFFF;font-size:13px;font-weight:600;text-transform:uppercase;line-height:56px;display:block;-webkit-transition:all 300ms ease-in-out;-moz-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out;padding:0 10px}
+.main-navigation.stickit nav&gt;ul&gt;li&gt;a{line-height:50px}
+nav&gt;ul&gt;li&gt;a&gt;span{display:block}
+nav&gt;ul&gt;li:hover&gt;a{color:#fff;background:#4d90fe}
+nav&gt;ul&gt;li.submenu&gt;a,nav&gt;ul&gt;li.nav-rec&gt;a,nav&gt;ul&gt;li.megamenu&gt;a,nav&gt;ul&gt;li.nav-big&gt;a,nav&gt;ul&gt;li.nav-simple&gt;a{padding-right:30px;position:relative}
+nav&gt;ul&gt;li.submenu&gt;a:after,nav ul li.submenu2&gt;a:after,nav&gt;ul&gt;li.nav-rec&gt;a:after,nav&gt;ul&gt;li.nav-simple&gt;a:after,nav&gt;ul&gt;li.megamenu&gt;a:after,nav&gt;ul&gt;li.nav-big&gt;a:after{content:&#39;\f0d7&#39;;position:Absolute;right:5px;top:50%;width:25px;height:20px;font:400 11px fontawesome,sans-serif;margin-top:-10px;text-align:Center;line-height:20px}
+nav ul li.submenu2&gt;a:after{content:&#39;\f105&#39;}
+nav&gt;ul&gt;li.submenu&gt;ul,nav&gt;ul&gt;li.submenu&gt;ul&gt;li.submenu2&gt;ul,li.megamenu .megamenu-inner,li.nav-big .big-nav-outer,li.nav-rec .nav-outer,nav&gt;ul&gt;li.nav-simple .nav-outer{position:absolute;opacity:0;visibility:hidden;webkit-transition:all 500ms cubic-bezier(0.68,-0.55,0.265,1.55);transition:all 500ms cubic-bezier(0.68,-0.55,0.265,1.55);-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-o-transform-origin:0 0;-ms-transform-origin:0 0;transform-origin:0 0;-moz-transform:scaleY(0.97);-webkit-transform:scaleY(0.97);-o-transform:scaleY(0.97);-ms-transform:scaleY(0.97);transform:scaley(0.95);box-shadow:0 19px 38px rgba(0,0,0,0.30),0 15px 12px rgba(0,0,0,0.22)}
+.toCenter{border-top:3px solid #4d90fe;max-width:1150px;overflow:hidden;min-height:100px;position:relative;background:#2b2b2b;margin:0 auto;padding:25px 0;box-shadow:0 19px 38px rgba(0,0,0,0.30),0 15px 12px rgba(0,0,0,0.22)}
+.megamenu .toCenter{padding:30px 20px}
+.nav-outer .toCenter{padding:25px!important}
+nav&gt;ul&gt;li.submenu&gt;ul{width:200px;border-top:3px solid #4d90fe;left:0;top:100%}
+nav&gt;ul&gt;li.submenu:hover&gt;ul,nav li.nav-rec.ready:hover div.nav-outer,li.megamenu:hover .megamenu-inner,li.nav-big:hover .big-nav-outer,nav&gt;ul&gt;li.nav-simple:hover .nav-outer{opacity:1;top:100%;visibility:visible;z-index:1001;-moz-transform:scaleY(1);-webkit-transform:scaleY(1);-o-transform:scaleY(1);-ms-transform:scaleY(1);transform:scaley(1)}
+nav&gt;ul&gt;li ul a{display:block;color:#FFF;text-align:left;border-bottom:1px solid rgba(255,255,255,0.13);background:#2b2b2b;font:normal normal 14px &#39;Open Sans&#39;, sans-serif;font-size:13px;transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-webkit-transition:all .3s ease-in-out;position:relative;padding:15px}
+nav&gt;ul&gt;li ul a:hover{color:#4d90fe}
+nav&gt;ul&gt;li ul a:before{display:none!important;content:&#39;&#39;;width:20%;position:absolute;bottom:-1px;left:0;height:1px;background:rgba(255,255,255,0.3);transition:all .3s ease-in;-moz-transition:all .3s ease-in;-webkit-transition:all .3s ease-in}
+nav&gt;ul&gt;li ul a:hover:before{background:#4d90fe;content:&#39;&#39;;width:30%}
+nav&gt;ul&gt;li.submenu&gt;ul&gt;li.submenu2&gt;ul{left:100%;top:0;width:200px}
+nav&gt;ul&gt;li&gt;ul&gt;li.submenu2:hover&gt;ul{left:100%;visibility:visible;opacity:1}
+nav li.nav-rec,li.megamenu,li.nav-big,nav li.nav-simple{position:static}
+nav div.nav-outer,li.megamenu .megamenu-inner,nav .big-nav-outer{width:100%;left:0;z-index:1000;top:98%;height:0}
+li.megamenu .megamenu-inner img{height:150px;width:100%}
+.n-item{position:relative;margin:0}
+.n-item .g-img-o{height:175px}
+.n-item .g-img-o img{height:175px;object-fit:cover}
+.nimeta{color:#fff;margin-top:10px;font:400 12px &#39;open sans&#39;,fontawesome,sans-serif;text-transform:uppercase}
+.n-item .content{position:Absolute;bottom:0;left:0;z-index:11}
+.n-item .popup-c{height:170px}
+.n-item h3{font:normal normal 15px &#39;Roboto&#39;, sans-serif;font-size:14px;font-weight:600;margin:10px 0;line-height:1.5}
+.n-item h3 a{color:#fff}
+.n-item h3 a:hover{color:#4d90fe}
+.n-item .currentLabel{background:#0583f2;border-radius:0}
+.megamenu-inner{width:100%;z-index:2}
+.megamenu-inner ul{float:left;width:23%;margin:0 1%}
+.megamenu-inner h3{font:normal normal 15px &#39;Roboto&#39;, sans-serif;color:#FFF;font-weight:500;font-size:18px;transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-webkit-transition:all .3s ease-in-out;margin:10px 0}
+.megamenu-inner ul li a:hover{background:transparent;color:#4d90fe;padding:10px 0}
+.megamenu-inner ul li a{color:#FFF;background:transparent;border-bottom:1px solid rgba(255,255,255,0.13);padding:10px 0}
+.nav-rec-tab li.active{color:#4d90fe;background:#353535}
+li.nav-rec-tab .tab-outer{float:left;width:20%}
+li.nav-rec-tab .nav-tab-outer{float:right;position:relative;min-height:170px;width:80%;background:#353535;padding:10px 0}
+.nav-layer{width:100%;height:100%;position:Absolute;left:0;top:0}
+nav #loader div{background:#0583f2}
+.tab-outer li{color:#FFF;cursor:pointer;font:400 15px oswald,sans-serif;text-transform:uppercase;padding:10px}
+li.nav-rec-tab .nav-tab-outer&gt;div .n-item{margin:10px}
+.nav-out-wrap{padding:0 0 0 25px}
+.nav-out-wrap h3{display:none;color:#fff;text-align:left}
+.big-nav-inner{position:relative;overflow:hidden}
+.left-content{float:left;width:30%;position:relative;height:300px}
+.left-content img{height:300px;object-fit:cover}
+.inner-content{position:absolute;bottom:0;left:0;z-index:99;right:25px;padding:20px}
+.big-nav-outer span.author{display:none}
+.inner-content h2{font:normal normal 15px &#39;Roboto&#39;, sans-serif;font-size:20px;font-weight:600;margin:0;line-height:1.5}
+.main-navigation .inner-content h2 a{color:#fff;margin:0}
+.main-navigation .inner-content h2 a:hover{color:#4d90fe}
+.nav-meta{color:#fff;font:normal normal 12px &#39;Open Sans&#39;, sans-serif;margin:10px 0}
+.left-content .nav-meta{color:#cecece;margin-top:15px}
+.nav-meta span.author:before{background:#fff}
+.inner-label a{display:inline-block;background:#4d90fe;color:#fff;font-size:11px;text-transform:uppercase;padding:3px 10px}
+.inner-label a:hover{background:#2b2b2b}
+.right-content{float:right;width:70%}
+.right-content .strip{float:left;width:50%;margin-bottom:25px;position:relative;overflow:hidden}
+.right-content .strip:nth-child(5),.right-content .strip:last-child{margin-bottom:0}
+.right-content .strip img{width:100px;height:83px;margin-right:10px;float:left}
+.strip-content{position:relative;overflow:hidden}
+.strip-content h2 a,.nav-simple-strip h3 a{color:#fff}
+.strip-content h2 a:hover,.nav-simple-strip h3 a:hover{color:#4d90fe}
+.strip-content h2,.nav-simple-strip h3{font:normal normal 15px &#39;Roboto&#39;, sans-serif;font-size:14px;font-weight:600;margin:0 0 5px;line-height:1.5}
+.nav-big .strip-meta{font:normal normal 12px &#39;Open Sans&#39;, sans-serif;color:#ccc;text-align:left}
+.dropdown-trigger,.static-trigger,.DropDownNavigation&gt;div&gt;h2,.below-post-col&gt;div&gt;div&gt;h2,.megamenu&gt;ul,.nav-rec-tab&gt;ul,nav .loaded .nav-layer,.tinynav{display:none}
+.DropDownNavigation{float:left;width:95%}
+.DropDownNavigation.active,.DropDownNavigation{display:block}
+nav&gt;ul&gt;li.submenu&gt;a,nav&gt;ul&gt;li.nav-rec&gt;a,nav&gt;ul&gt;li.megamenu&gt;a,nav&gt;ul&gt;li.nav-simple&gt;a,nav&gt;ul&gt;li.submenu&gt;ul&gt;li.submenu2{position:relative}
+nav img,.n-item img{width:100%}
+.big-nav-inner .strip-content,.left-content .container{margin-right:25px}
+.nav-meta span.date,.strip-meta .date{margin-right:5px}
+li.contactusb{float:right;background:#4d90fe;font-size:15px}
+li.contactusb i{font-size:25px;vertical-align:middle}
+.main-navigation .owl-theme .owl-controls .owl-nav [class*=owl-]{background:#444}
+.main-navigation .owl-theme .owl-controls .owl-nav [class*=owl-]:hover{background:#333}
