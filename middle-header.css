@@ -1,0 +1,16 @@
+/* Middle Header */
+#BlogHeader h1,#BlogHeader h1 a,#BlogHeader p,#BlogHeader p a,#header-inner h2,#header-inner h2 a{color:#222222;font:normal normal 45px &#39;Open Sans&#39;, sans-serif;padding:0;margin:0;font-weight: 900;text-transform: uppercase;}
+#BlogHeader h1,#BlogHeader h1 a,#header-inner h2,#header-inner h2 a,#BlogHeader .titlewrapper p{max-height:90px;line-height:90px}
+#BlogHeader h1 a:hover,#BlogHeader p a:hover,#header-inner h2 a:hover{color:#4d90fe}
+.header-inner .Header .titlewrapper{padding:0}
+header-inner .Header .descriptionwrapper{padding:0;margin:0}
+.tl-midheader{padding:25px 0;color:#222222;background-color:#FFFFFF}
+.tl-midheader .inner {padding: 0px 25px;}
+.tl-midheader .main-header{margin:0 auto;max-width:375px;max-height:90px}
+.tl-midheader .main-header,.tl-midheader .adbanner{display:table-cell;vertical-align:middle;width:100%}
+.tl-midheader .main-header {float: left;}
+.adbanner{float:right}
+.header span{text-indent:-999em;display:block;font-size:15px}
+.header-section.header-contents{position:relative}
+.adbanner{max-width:728px;max-height:90px}
+.adbanner h2{display:none}
